@@ -9,6 +9,7 @@ import R2D2 from './R2D2';
 import Leia from './Leia';
 import Vader from './Vader';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Footer from './Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <div className="App">
 
           <Nav/>
+          <Footer/>
 
          <div style={{ 
       backgroundImage: `url("https://via.placeholder.com/500")` 
@@ -37,10 +39,12 @@ function App() {
           <Route path="/aboutus" exact component={AboutUs}/>  
 
 
-   
+          
           </Switch>      
         </div>
     </Router>
+
+
 
 
   );
