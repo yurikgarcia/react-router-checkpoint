@@ -86,6 +86,30 @@ function Home() {
       >
         <Avatar alt="Leia" src="https://avatarfiles.alphacoders.com/711/thumb-71124.jpg" />
       </StyledBadge>
+
+      <StyledBadge
+        overlap="circular"
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+        variant="dot"
+      >
+        <Avatar alt="Leia" src="https://pbs.twimg.com/media/Dqx1HA0U8AAHNAE.jpg" />
+      </StyledBadge>
+
+      <StyledBadge
+        overlap="circular"
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+        variant="dot"
+      >
+        <Avatar alt="Leia" src="https://pbs.twimg.com/profile_images/1425434353543286787/GAvtsVeq_400x400.jpg" />
+      </StyledBadge>
+
+      <StyledBadge
+        overlap="circular"
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+        variant="dot"
+      >
+        <Avatar alt="Leia" src="https://www.figurerealm.com/userimages/characterprofiles/2500/2466-1-58cbe33910930.jpg" />
+      </StyledBadge>
       
     </Stack>
 

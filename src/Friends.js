@@ -69,24 +69,60 @@ return (
    </CardContent>
 </Card>
 
+<Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        height="140"
+        image="https://pbs.twimg.com/media/Dqx1HA0U8AAHNAE.jpg"
+        alt="owenlars"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        <Link to={`/friends/owenlars`}>Owen Lars</Link>
+        </Typography>
+   </CardContent>
+</Card>
+
+<Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        height="140"
+        image="https://www.figurerealm.com/userimages/characterprofiles/2500/2466-1-58cbe33910930.jpg"
+        alt="beruwhitesun"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        <Link to={`/friends/beruwhitesun`}>Beru Whitesun</Link>
+        </Typography>
+   </CardContent>
+</Card>
+
+<Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        height="140"
+        image="https://pbs.twimg.com/profile_images/1425434353543286787/GAvtsVeq_400x400.jpg"
+        alt="r5d4"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        <Link to={`/friends/r5d4`}>R5-D4</Link>
+        </Typography>
+   </CardContent>
+</Card>
+
+
+
+
+
+
+
 
 
     </main>
 
 
-//  <div>
 
-
-
-//     <h1>
-//     <Link to={`/friends/r2d2`}>R2-D2</Link>  
-//     </h1>
-
-//     <h1>
-//     <Link to={`/friends/leiaorgana`}>Leia Organa</Link>  
-//     </h1>
-
-// </div>
 )
         }
 
