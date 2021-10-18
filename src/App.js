@@ -20,6 +20,13 @@ function App() {
 
           <Nav/>
 
+         <div style={{ 
+      backgroundImage: `url("https://via.placeholder.com/500")` 
+    }}>
+      Welcome Back Luke SkyWalker - Here's the latest in the Galaxy
+    </div>
+
+        
           <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/friends" exact component={Friends}/>  
@@ -34,6 +41,8 @@ function App() {
           </Switch>      
         </div>
     </Router>
+
+
   );
 }
 
