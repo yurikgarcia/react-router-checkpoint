@@ -22,11 +22,7 @@ function App() {
           <Nav/>
           <Footer/>
 
-         <div style={{ 
-      backgroundImage: `url("https://via.placeholder.com/500")` 
-    }}>
-      Welcome Back Luke SkyWalker - Here's the latest in the Galaxy
-    </div>
+
 
         
           <Switch>

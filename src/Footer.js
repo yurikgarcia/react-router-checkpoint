@@ -11,7 +11,7 @@ Heading,
 const Footer = () => {
 return (
 	<Box>
-	<h1 style={{ color: "green",
+	<h1 style={{ color: "yellow",
 				textAlign: "center",
 				marginTop: "-50px" }}>
 		Star Book: A Portal For The Galaxy
